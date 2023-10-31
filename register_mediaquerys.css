@@ -1,0 +1,28 @@
+/* TABLET */
+
+@media (max-width: 992px) {
+  #register {
+    background-image: url(/assets/images/suculenta_fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .register__contain {
+    width: 50%;
+    height: 80vh;
+    position: relative;
+    left: 0px;
+  }
+
+  /* MOBILE */
+
+  @media (max-width: 576px) {
+    .register__button button {
+      font-weight: 550;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/login_styles.css" />
+    <link rel="stylesheet" href="/animaciones.css" />
+    <link rel="stylesheet" href="/login_mediaquerys.css" />
+  </head>
+  <body>
+    <section id="login">
+      <div class="login__contain">
+        <a href="/index.html"
+          ><img src="/assets/images/logo.png" alt="logo-sucuespinas"
+        /></a>
+
+        <label for="usuario">
+          <input
+            type="email"
+            id="usuario"
+            placeholder="Ingrese su usuario o correo electronico:"
+            required
+          />
+        </label>
+
+        <label for="contraseña">
+          <input
+            type="password"
+            id="contraseña"
+            placeholder="Contraseña:"
+            required
+          />
+        </label>
+        <div class="login__button">
+          <button>
+            <a class="login__button--enlace" href="/index.html">
+              Iniciar sesion</a
+            >
+          </button>
+          <button>
+            <a class="login__button--enlace" href="/register.html"
+              >Registrarme</a
+            >
+          </button>
+        </div>
+        <div class="login__text">
+          <p>
+            <span><a href="#">¿Olvidaste la contraseña?</a></span>
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

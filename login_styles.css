@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#login {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/images/cactus-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__contain {
+  width: 30vw;
+  height: 80vh;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 300px;
+}
+
+.login__contain img {
+  min-width: 18vw;
+  height: 40vh;
+  margin: 10px;
+  /* background-color: yellow; */
+}
+
+.login__contain input {
+  background-color: #dee2e6;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 7px;
+}
+
+.login__button {
+  /* background-color: #d8f3a0; */
+  width: 280px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login__button button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #dee2e6;
+}
+
+.login__text {
+  width: 20vw;
+  height: 5vh;
+  /* background-color: rgb(160, 189, 251); */
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login__button--enlace {
+  color: inherit;
+  text-decoration: none;
+}
+
+.login__button button:active {
+  background-color: rgb(167, 197, 178);
+  transition: all 0.08s ease;
+}

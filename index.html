@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sucuespinas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/animaciones.css">
+    <link rel="stylesheet" href="/mediaquerys.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- SECCION HEADER -->
+    <header>
+      <div class="navbar__img">
+       <img
+       class="navbar__logo"
+        src="/assets/images/logo.png"
+        alt="cactus"
+        />
+      </div>
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle">
+
+        <ul class="navbar__list">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Catálogo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="/login.html">Login</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <section id="hero">
+      <div class="hero__div">
+        <h1 class="hero-title">Bienvenidos a Sucuespinas</h1>
+        <p class="hero-subtitle">"Plantas únicas para hogares <span>únicos"</span></p>
+      </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros">
+      <div class="nosotros__text">
+        <p>
+          <span>Sucuespinas</span> nace en Septiembre del 2020 en la Ciudad de
+          Comodoro Rivadavia, Chubut-Argentina. Desde ese momento nos dedicamos
+          al cultivo y asesoramiento profesional en Cactus, Suculentas y Plantas
+          Exóticas. Nuestro principal espacio de contacto con clientes se
+          encuentra en el barrio Laprida de la ciudad de Comodoro Rivadavia.
+        </p>
+      </div>
+      <div class="nosotros__img">
+        <img src="/assets/images/logo.png" alt="logo" />
+      </div>
+    </section>
+
+    <!-- SECCION PRODUCTOS -->
+    <section id="productos">
+      <h2>Productos</h2>
+
+      <h3>Catálogo</h3>
+
+      <div class="productos__cont">
+        <div class="productos__card">
+          <img src="/assets/images/sucu1.jpeg" alt="suculenta" />
+          <div class="productos__card--text">
+            <h4>Sempervivum Calcareum</h4>
+            <p>$1,100</p>
+          </div>
+        </div>
+        <div class="productos__card">
+          <img src="/assets/images/sucu2.jpeg" alt="suculenta" />
+          <div class="productos__card--text">
+            <h4>Graptoveria Opalina</h4>
+            <p>$980</p>
+          </div>
+        </div>
+        <div class="productos__card">
+          <img src="/assets/images/sucu3.jpeg" alt="suculenta" />
+          <div class="productos__card--text">
+            <h4>Echeveria Curls</h4>
+            <p>$1,300</p>
+          </div>
+        </div>
+        <div class="productos__card">
+          <img src="/assets/images/1cactus.jpeg" alt="cactus 1" />
+          <div class="productos__card--text">
+            <h4>Ferocactus Glaucescens</h4>
+            <p>$3,800</p>
+          </div>
+        </div>
+        <div class="productos__card">
+          <img src="/assets/images/2cactus.jpeg" alt="cactus 2" />
+          <div class="productos__card--text">
+            <h4>Opunta Subulata Crestada</h4>
+            <p>$1,900</p>
+          </div>
+        </div>
+        <div class="productos__card">
+          <img src="/assets/images/3cactus.jpeg" alt="cactus 3" />
+          <div class="productos__card--text">
+            <h4>Opuntia Santa Rita</h4>
+            <p>$4,800</p>
+          </div>
+        </div>
+      </div>
+      
+      <h3>Artículos</h2>
+      <div class="articulos__cont">  
+        <div class="articulos__card">
+          <img src="/assets/images/macetas.jpg" alt="Macetas" />
+          <div class="productos__card--text">
+            <h4>Macetas</h4>
+            <p>$1,200</p>
+          </div>
+        </div>
+        <div class="articulos__card">
+          <img src="/assets/images/macetas-cemento.jpg" alt="macetas de cemento" />
+          <div class="productos__card--text">
+            <h4>Bowls</h4>
+            <p>$2,200</p>
+          </div>
+        </div>
+        <div class="articulos__card">
+          <img src="/assets/images/insecticida.jpg" alt="insecticida" />
+          <div class="productos__card--text">
+            <h4>insecticida</h4>
+            <p>$4,250</p>
+          </div>
+        </div>  
+      </div>  
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+      <div class="contacto__title">
+        <h2>"Contactate con Nosotros"</h2>
+        <h3>"¡No dudes en escribirnos! Deja tu consulta, te responderemos a la brevedad."</h3>
+      </div>
+      <div class="contacto__form">
+        <div class="contacto__form--datos">
+          <span>Nombre y Apellido:</span>
+          <label for="nombre">
+            <input type="text" id="nombre" placeholder="Ingrese nombre y apellido:" required>
+          </label>
+          <span>Email:</span>
+          <label for="correo">
+            <input type="email" id="correo" placeholder="Ingrese correo electronico:" required>
+          </label>
+          <span>Asunto:</span>
+          <label for="asunto">
+            <input type="text" id="asunto" placeholder="Coloque el asunto:" required>
+          </label>
+          <span>Mensaje:</span>
+          <label for="consulta">
+            <textarea id="consulta" placeholder="Escriba su consulta:" required></textarea>
+          </label>
+          <div class="boton">
+            <button class="enviar">
+              <p>Enviar</p>
+            </button>
+          </div>
+          
+        </div>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1653.1661783485165!2d-67.54769077925953!3d-45.82561566013345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde4ffa60c6b4b4b%3A0x40696acb95d510da!2sSucuespinas!5e0!3m2!1ses-419!2sar!4v1697831893801!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>  
+        </div>
+      </div>
+      <div class="redes">
+        <span class="redes__parrafo"><p>Seguinos en nuestras redes sociales:</p></span>
+        <div class="logos__redes">
+          <a href="https://www.instagram.com/sucuespinas" target="_blank"><img src="/assets/images/instagram.png" alt="logo-instagram"></a>
+          <a href="https://www.facebook.com/profile.php?id=100063576279341" target="_blank"><img src="/assets/images/facebook.png" alt="logo-facebook"></a>
+          <a href="https://www.whatsapp.com/catalog/5492974621442/?app_absent=0" target="_blank"><img src="/assets/images/whatsapp.png" alt="logo-whatsapp"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+
+    <footer id="footer">
+      <img src="" alt="">
+      <p>© Sucuespinas - 2023</p>
+    </footer>
+  </body>
+</html>
