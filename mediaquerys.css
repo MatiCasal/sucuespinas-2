@@ -44,6 +44,10 @@
 
   /* seccion NOSOTROS */
 
+  .nosotros__img {
+    width: 40vw;
+  }
+
   .nosotros__img img {
     min-width: 85%;
   }
@@ -128,10 +132,6 @@
   /* MOBILE */
 
   @media (max-width: 576px) {
-    /* body {
-      width: 100%;
-    } */
-
     .navbar__list {
       height: calc(100vh - 60vh);
       position: absolute;
@@ -175,10 +175,10 @@
     }
 
     .nosotros__text {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-weight: 500;
-      width: 70%;
-      height: 60%;
+      min-width: 70%;
+      height: 50%;
       /* background-color: yellow; */
       overflow: scroll;
       position: relative;

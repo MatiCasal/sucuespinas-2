@@ -23,7 +23,6 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
 }
 
@@ -35,8 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  left: 120px;
+  margin-left: 120px;
 }
 
 .register__contain img {
@@ -67,8 +65,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 32vw;
-  height: 35vh;
+  width: 75%;
 }
 
 .register__contain--usuario input {

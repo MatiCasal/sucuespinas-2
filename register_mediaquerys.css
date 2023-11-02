@@ -14,8 +14,12 @@
   .register__contain {
     width: 50%;
     height: 80vh;
-    position: relative;
-    left: 0px;
+    margin-left: 0;
+  }
+
+  .register__contain--usuario {
+    width: 75%;
+    margin: 5px;
   }
 
   /* MOBILE */

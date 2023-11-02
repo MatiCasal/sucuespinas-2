@@ -139,7 +139,7 @@ header {
 
 #nosotros {
   width: 100%;
-  height: 80vh;
+  height: 650px;
   background-color: var(--background);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -157,7 +157,7 @@ header {
 }
 
 .nosotros__img {
-  width: 35vw;
+  width: 25vw;
   height: 50vh;
 
   display: flex;
@@ -166,8 +166,8 @@ header {
 }
 
 .nosotros__img img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 35vw;
+  max-height: 35vh;
 }
 
 .nosotros__text span {
